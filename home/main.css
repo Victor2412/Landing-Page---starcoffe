@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Teko:wght@600&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+cursor:grab;
+}
+
+body{
+    background:  #1F1517; ;
+    color:#FFFFFF ;
+}
+
+html{
+
+    font-family: Inter , sans-serif ;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+   
+}
+
+ul{
+list-style: none;
+}
+
+
+nav{
+
+    max-width: 1120px;   
+    margin: auto;
+    padding: 1.5rem 1rem  ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+   }
+   
+h1{
+
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+    
+    }
+    
+hr{
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    border-color: #A45A49;
+    width: 50%;
+    }
+    
+button{
+        border: none;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: #A45A49 ;
+        
+    }
+
